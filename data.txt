@@ -1,0 +1,155 @@
+G014 Bacharelado Sistemas de Informação
+109
+GAE103 O Teoria Geral da Administração I
+GAT136 O Introdução aos Sistemas Digitais
+GCC224 O Introdução aos Algoritmos
+GCC241 O Introdução a Computação
+GEX104 O Cálculo I
+GCC174 O Sistemas de Informação
+GCC198 O Paradigmas de Linguagens de Programação
+GCC216 O Estruturas de Dados
+GES107 O Estatística Aplicada
+GEX252 O Matemática Discreta
+GGA108 O Organizações, Sistemas e Métodos
+GAE108 O Teoria Econômica
+GAE117 O Administração Estratégica
+GCC122 O Linguagens Formais e Autômatos
+GCC178 O Práticas de Programação Orientada a Objetos
+GCC194 O Arquitetura de Computadores
+GCC218 O Algoritmos em Grafos
+GCC108 O Teoria da Computação
+GCC116 O Sistemas Operacionais
+GCC176 O Gestão de Tecnologia da Informação
+GCC188 O Engenharia de Software
+GCC214 O Introdução a Sistemas de Banco de Dados
+GCC219 O Interação Humano-Computador
+GCC125 O Redes de Computadores
+GCC137 O Empreendedorismo em Sistemas de Informação
+GCC175 O Sistemas Gerenciadores de Banco de Dados
+GCC242 O Segurança, Auditoria e Avaliação de Sistemas de Informação
+GCC244 O Processos de Software
+GCC253 O Complexidade e Projetos de Algoritmos
+GCC128 O Inteligência Artificial
+GCC129 O Sistemas Distribuídos
+GCC135 O Gerência de Projetos de Software
+GCC220 O Metodologia de Pesquisa
+GCC222 O Ética, Computador e Sociedade
+GCC243 O Qualidade de Software
+PRG514 O Estágio Supervisionado/TCC
+GCC141 E Administração de Serviços de Redes de Computadores
+GCC151 E Introdução ao Processamento de Línguas Naturais
+GCC153 E Mineração de Dados
+GCC160 E Segurança Computacional
+GCC177 E Programação Paralela e Concorrente
+GCC180 E Computação em Nuvem
+GCC190 E Projet e Inst de Infra-estruturas de Redes de Computadores
+GCC213 E Estudos Avançados em Mineração Web e Aplicações
+GCC144 E Desenvolvimento de Aplicativos para Dispositivos Móveis
+GCC208 E Estudos Avançados em Tecnologias Educacionais
+GCC209 E Programação WEB
+GCC239 E Metodologia para Desenvolvimento Seguro de Aplicações
+GCC132 E Modelagem e Implementação de Software
+GCC140 E Inteligência de Negócios
+GCC147 E Estudos Avançados em Engenharia de Software
+GCC148 E Gestão do Conhecimento Tecnologia e Inovação
+GCC164 E Software Livre e Empreendedorismo Cooperativo
+GCC189 E Informática na Educação
+GCC204 E Recuperação da Informação
+GCC223 E Acessibilidade em Sistemas Computacionais
+GCC225 E Gestão do Conhecimento no Setor Público
+GCC226 E Inovação Aberta
+GCC227 E Manutenção e Evolução de Software
+GCC240 E Governo Eletrônico
+GCC252 E Arquitetura de Software
+GAE102 E Contabilidade Geral
+GAE111 E Administração de Recursos Humanos I
+GAE114 E Métodos Quantitativos
+GAE115 E Gestão de Custos
+GAE120 E Marketing
+GAE121 E Administração de Recursos Humanos II
+GAE128 E Sistemas de Informações Gerenciais
+GAE140 E Pesquisa Operacional
+GAE142 E Planejamento Empresarial
+GAE144 E Constituição de Cooperativas
+GAE152 E Mercado de Capitais
+GAE155 E Consultoria Empresarial
+GAE156 E Mudança e Inovação Organizacional
+GAE168 E Empreendedorismo
+GAE178 E Teoria Organizacional
+GAE179 E Administração de Recursos Humanos
+GAE180 E Administração da Produção e Serviços
+GAE197 E Organização Mercado e Empreendedorismo
+GAE207 E Sistema de Informação para o Setor Público
+GAE212 E Planejamento e Programação na Administração Pública
+GAE220 E Estratégias de Negócios Sustentáveis
+GAE225 E Gestão e Desenvolvimento de Pessoas no Setor Público
+GAE237 E Estratégias Empresariais na Era Digital
+GAE266 E Tópicos em Comportamento Social
+GAE268 E Estratégia no Setor Público
+GAE270 E Marketing Público
+GAE271 E Sociologia das Organizações do Trabalho
+GAE287 E Inovação e Competitividade
+GCC254 E Projeto Integrador
+GCC256 E Projeto Integrador
+GCH102 E Introdução à Filosofia
+GCH104 E Sociologia
+GCH113 E História da Lógica
+GCH118 E Ética I
+GCH122 E Ética II
+GCH128 E Filosofia da Ciência
+GCH235 E Introdução à Filosofia
+GDE123 E Educação Trabalho Ciência e Tecnologia
+GDE124 E Língua Brasileira de Sinais (libras)
+GDE125 E Ciência, Tecnologia e Sociedade
+GDE208 E Cultura Indígena e Afrobrasileira
+GDI158 E Direito e Cidadania
+GDI169 E Direito Administrativo
+GEL102 E Leitura e Produção de Textos I
+GEL178 E Habilidades em Língua Inglesa I
+GEL179 E Habilidades em Língua Inglesa II
+GEL231 E Língua Inglesa em Contexto Acadêmico para Proficiência
+GGA107 E Comportamento Humano nas Organizações
+43
+GCC198 GCC216 C
+GCC216 GCC224 F
+GES107 GEX104 F
+GAE117 GAE103 F
+GCC122 GCC216 M
+GCC178 GCC216 F
+GCC194 GAT136 F
+GCC218 GCC216 F
+GCC108 GCC122 F
+GCC116 GCC194 F
+GCC176 GCC174 F
+GCC176 GAE117 F
+GCC125 GCC116 M
+GCC137 GCC174 F
+GCC175 GCC214 F
+GCC175 GCC216 F
+GCC244 GCC188 F
+GCC253 GCC218 F
+GCC253 GEX252 F
+GCC128 GCC218 F
+GCC129 GCC125 F
+GCC135 GCC244 F
+GCC222 GCC220 M
+GCC243 GCC135 F
+GCC144 GCC125 M
+GCC144 GCC214 M
+GCC144 GCC188 M
+GCC208 GCC220 F
+GCC209 GCC125 M
+GCC209 GCC214 M
+GCC209 GCC188 M
+GCC239 GCC188 C
+GCC132 GCC188 F
+GCC140 GCC214 F
+GCC147 GCC188 F
+GCC148 GCC220 M
+GCC204 GCC216 M
+GCC223 GCC219 F
+GCC227 GCC188 F
+GCC240 GCC174 F
+GCC252 GCC188 F
+GAE142 GAE103 F
+GAE156 GAE121 F

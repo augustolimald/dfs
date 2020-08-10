@@ -1,6 +1,8 @@
 # DFS
 
-Comando para compilar:
+Como executar a aplicação:
 ```
-g++ Subject.hpp Subject.cpp Connection.hpp Connection.cpp Course.hpp Course.cpp Graph.hpp Graph.cpp main.cpp -o alg
+chmod a+x compile.sh
+./compile.sh
+./run
 ```

@@ -4,6 +4,7 @@
 class Graph {
   public:
     Graph(Course*);
+    ~Graph();
     void showThree();
 
   private:

@@ -4,15 +4,19 @@
 
 using namespace std;
 
-Course loadData(string);
+Course* loadData(string);
 
 int main() {
-  Course course = loadData("data.txt");
-  Graph graph(course);
+  Course *course = loadData("data.txt");
+  Graph *graph = new Graph(course);
+  graph->showThree();
+
+  delete graph;
+  delete course;
   return 0;
 }
 
-Course loadData(string filename) {
+Course* loadData(string filename) {
   ifstream file(filename);
   int amount;
   string a, b, c;
@@ -24,7 +28,7 @@ Course loadData(string filename) {
   file >> b;
   getline(file, c);
   c = c.substr(1);
-  Course course(a, b, c);
+  Course *course = new Course(a, b, c);
 
   /**
    * Subjects Data
@@ -37,7 +41,7 @@ Course loadData(string filename) {
     c = c.substr(1);
 
     Subject subject(a, b, c);
-    course.addSubject(subject);
+    course->addSubject(subject);
   }
 
   /**
@@ -50,7 +54,7 @@ Course loadData(string filename) {
     file >> c;
 
     Connection connection(a, b, c);
-    course.addConnection(connection);
+    course->addConnection(connection);
   }
 
   file.close();

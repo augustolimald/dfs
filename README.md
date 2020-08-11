@@ -2,7 +2,12 @@
 
 Como executar a aplicação:
 ```
-chmod a+x compile.sh
 ./compile.sh
 ./run
 ```
+
+ALUNOS:
+  - Augusto César Rodrigues Lima
+  - Luiz Felipe Montuani e Silva
+  - Matheus Rocha Silva Pimenta
+  - Vinícius Antônio Carvalho Leite

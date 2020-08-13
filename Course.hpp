@@ -10,10 +10,16 @@ class Course {
     std::string getName();
     std::string getType();
     
+    /**
+     * Methods to deal with subjects
+     */
     void addSubject(Subject);
     Subject getSubject(int);
     int getTotalOfSubjects();
 
+    /**
+     * Methods to deal with connections
+     */
     void addConnection(Connection);
     Connection getConnection(int);
     int getTotalOfConnections();

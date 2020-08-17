@@ -91,7 +91,7 @@ void Graph::dfs(int index, bool *visited, int level, bool show) {
   }
 }
 
-void Graph::showThree() {
+void Graph::showTree() {
   // Call DFS to each vertice
   for (int i = 0; i < size; i++) {
     // Init auxiliar structure

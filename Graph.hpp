@@ -12,7 +12,7 @@ class Graph {
     /**
      * Public methods
      */
-    void showThree();
+    void showTree();
     void showSubject(std::string);
     void showCriticalSubjects();
 

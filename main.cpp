@@ -37,7 +37,7 @@ int main() {
       }
 
       case 3: {
-        graph->showThree();
+        graph->showTree();
         break;
       }
     }

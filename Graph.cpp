@@ -73,7 +73,7 @@ void Graph::reverse_dfs(int index, bool *visited, int &amount) {
   }
 }
 
-void Graph::dfs(int index, bool *visited, int level, int &maxLevel, bool show) {
+void Graph::dfs(int index, bool *visited, int level, bool show) {
   // Mark vertice as visited
   visited[index] = true;
   
@@ -82,16 +82,11 @@ void Graph::dfs(int index, bool *visited, int level, int &maxLevel, bool show) {
     cout << string(level * 2, ' ') << course->getSubject(index).getName() << endl;
   }
 
-  // Update max level value
-  if (level > maxLevel) {
-    maxLevel = level;
-  }
-
   // Call DFS method to each unvisited neighbor
   for (int i = 0; i < size; i++) {
     if (matrix[index][i] != '-') {
       if (!visited[i])
-        dfs(i, visited, level + 1, maxLevel, show);
+        dfs(i, visited, level + 1, show);
     }
   }
 }
@@ -100,21 +95,19 @@ void Graph::showThree() {
   // Call DFS to each vertice
   for (int i = 0; i < size; i++) {
     // Init auxiliar structure
-    int level;
-
     bool *visited = new bool[size];
 		for (int j = 0; j < size; j++)
 			visited[j] = false;
     
     // Call DFS
-    dfs(i, visited, 0, level, true);
+    dfs(i, visited, 0, true);
     delete[] visited;
   }
 }
 
 void Graph::showSubject(string subject) {
   // Find the subject index
-  int index = getSubjectIndex(subject), level;
+  int index = getSubjectIndex(subject);
   if (index == -1) {
     cout << "Disciplina não encontrada" << endl;
     return;
@@ -126,21 +119,21 @@ void Graph::showSubject(string subject) {
 	  visited[i] = false;
     
   // Call DFS
-  dfs(index, visited, 0, level, true);
+  dfs(index, visited, 0, true);
   delete[] visited;
 }
 
 void Graph::showCriticalSubjects() {
   vector<CriticalSubject> subjects;
 
-  // Call DFS to each vertice
+  // Call Reverse DFS to each vertice
   for (int i = 0; i < size; i++) {
     // Init auxiliar structure
     bool *visited = new bool[size];
     for (int j = 0; j < size; j++)
       visited[j] = false;
     
-    // Call DFS
+    // Call Reverse DFS
     int amount = -1;
     reverse_dfs(i, visited, amount);
     

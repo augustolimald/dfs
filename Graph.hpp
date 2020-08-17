@@ -32,7 +32,7 @@ class Graph {
     /**
      * Runs a Depth-First Algorithm
      */
-    void dfs(int, bool*, int, int&, bool);
+    void dfs(int, bool*, int, bool);
 
     /**
      * Runs a Depth-First Algorithm in a reverse direction
